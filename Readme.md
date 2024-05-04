@@ -14,7 +14,6 @@
 <a href="https://qameta.io/"><img width="5%" title="Allure TestOps" src="src/media/icons/Allure_TO.svg"></a>
 <a href="https://www.jenkins.io/"><img width="5%" title="Jenkins" src="src/media/icons/Jenkins.svg"></a>
 <a href="https://www.atlassian.com/ru/software/jira"><img width="5%" title="Jira" src="src/media/icons/Jira.svg"></a>
-<a href="https://web.telegram.org/"><img width="5%" title="Telegram" src="src/media/icons/Telegram.svg"></a>
 </p>
 
 ### Автотесты написаны на <code>Java</code> с использованием <code>API RestAssured</code> 
@@ -22,7 +21,6 @@
 - Gradle — используется как инструмент автоматизации сборки.
 - Jenkins — CI/CD для удаленного запуска тестов.
 - Allure TestOps - как система управления тестированием.
-- Telegram Bot — для уведомлений о результатах прохождения тестов.
 - Осуществлена интеграция с Allure TestOps и Jira.
 - По итогу прохождения автотестов генерируется Allure отчет. 
 
@@ -75,7 +73,7 @@ clean ${TASK}
 `TREND` - отображает тенденцию выполнения тестов для всех запусков <br/>
 `SUITES` - отображает распределение тестов по сьютам <br/>
 
-<img src="src/media/screenshots/AllureReport_.png">
+<img src="src/media/screenshots/AllureReport_Overview.png">
 
 #### Развернутый результат прохождения тестов:
 1. Общий список автотестов
@@ -96,9 +94,4 @@ clean ${TASK}
 >
 <img src="src/media/screenshots/Jira_API.png">
 
-## Уведомления в Telegram с использованием бота
-
-> Бот, созданный в Telegram, после завершения сборки отправляет сообщение с отчетом о прохождении тестов
->
-<img src="src/media/screenshots/Telegram_Notifications.jpeg">
 
