@@ -10,7 +10,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static specs.MainSpec.*;
 
 @Tag("user_test")
-public class UserTests extends TestBase{
+public class UserTests extends TestBase {
 
     @Test
     void checkUserIdTest() {
@@ -42,6 +42,6 @@ public class UserTests extends TestBase{
                 .then()
                 .spec(responseRegressInSpecificationStatusCode204)
         );
-      }
     }
+}
 
