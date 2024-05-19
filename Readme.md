@@ -81,18 +81,18 @@ clean ${TASK}
 2. Содержание автотеста
 3. Вложения
 
-<img src="media/screenshots/AllureReport_API.png">
+<img src="media/screenshots/AllureReport_API_project.png">
 
 ## Интеграция с <b><a target="_blank" href="https://allure.autotests.cloud/project/4176/test-cases/31657?treeId=0">Allure TestOps</a></b>
 
 >Результаты прохождения тестов
 >
-<img src="src/media/screenshots/AllureTestOps_Api.png">
+<img src="media/screenshots/AllureTestOps_API.png">
 
 ## Интеграция с <b><a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1205">Jira</a></b>
 
 >В Jira создана задача и в разделе `Allure:Test Cases` отображаются интегрированные автоматизированные тесты
 >
-<img src="media/screenshots/Jira_API.png">
+<img src="media/screenshots/Jira_API_5cases.png">
 
 
