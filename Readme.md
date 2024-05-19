@@ -87,7 +87,7 @@ clean ${TASK}
 
 >Результаты прохождения тестов
 >
-<img src="media/screenshots/AllureTestOps_API.png">
+<img src="media/screenshots/AllureTestOps_API_project.png">
 
 ## Интеграция с <b><a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1205">Jira</a></b>
 
